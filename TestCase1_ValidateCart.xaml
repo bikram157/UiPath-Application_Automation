@@ -129,7 +129,7 @@
                 <OutArgument x:TypeArguments="x:String">[Expected_Store_ID]</OutArgument>
               </ui:AssignOperation.To>
               <ui:AssignOperation.Value>
-                <InArgument x:TypeArguments="x:String">Store #133</InArgument>
+                <InArgument x:TypeArguments="x:String">133</InArgument>
               </ui:AssignOperation.Value>
             </ui:AssignOperation>
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
@@ -246,7 +246,7 @@
                 </ui:MultipleAssign.AssignOperations>
               </ui:MultipleAssign>
               <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="Order_Details.txt" sap:VirtualizedContainerService.HintSize="533.6,134.4" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="[Log_Message]" UseDefaultEncoding="False" />
-              <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="533.6,267.2" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="TextString" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="533.6,267.2" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Contains" OutputArgument="TextString" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
                 <uta:VerifyControlAttribute.ActivityToTest>
                   <ActivityAction>
                     <uix:NGetText DisplayName="Get Text 'Store #133'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="2d17bed7-a39f-446a-90e8-c663bc5075d4" TextString="[Get_Store_ID]" Version="V3">

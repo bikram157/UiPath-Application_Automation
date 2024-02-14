@@ -43,10 +43,11 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "88855ea4-a1fa-4c9b-b5bf-1569e6692822",
+        "editingStatus": "Publishable",
+        "testCaseId": "eb3a60bc-d0cc-413c-97ac-f200db12d617",
         "testCaseType": "TestCase",
-        "fileName": "TestCase.xaml"
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase1_ValidateCart.xaml"
       }
     ],
     "saveToCloud": false
